@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from zhipuai import ZhipuAI
 
-client = ZhipuAI(api_key="34b3a1631973091f47522767f7601644.e0QU7sGy3DNf2NzG") # 填写您自己的APIKey
+client = ZhipuAI(api_key="") # 填写您自己的APIKey
 
 # 创建FastAPI应用
 app = FastAPI()
