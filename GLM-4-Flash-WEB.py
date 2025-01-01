@@ -6,7 +6,7 @@ from typing import *
 # 最大历史对话长度
 MAX_HISTORY_LEN = 50
 
-client = ZhipuAI(api_key="34b3a1631973091f47522767f7601644.e0QU7sGy3DNf2NzG")  # 填写您自己的APIKey
+client = ZhipuAI(api_key="")  # 填写您自己的APIKey
 
 with gr.Blocks(title="智小优") as demo:
     gr.HTML("""<h1 align="center">智小优</h1>""")
