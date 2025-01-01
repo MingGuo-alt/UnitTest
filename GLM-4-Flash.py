@@ -6,7 +6,7 @@ from zhipuai import ZhipuAI
 
 def get_ai_response_in_thread(prompt_text, text_widget):
     try:
-        client = ZhipuAI(api_key="34b3a1631973091f47522767f7601644.e0QU7sGy3DNf2NzG")
+        client = ZhipuAI(api_key="") #填写您的API Key
 
         response = client.chat.completions.create(
             model="glm-4",
